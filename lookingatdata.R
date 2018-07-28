@@ -55,3 +55,55 @@
   |===================                                                              |  24%
 | The first number you see (5166) is the number of rows (observations) and the second
 | number (10) is the number of columns (variables).
+...
+
+  |=======================                                                          |  28%
+| You can also use nrow(plants) to see only the number of rows. Try it out.
+
+> 
+> nrow(plants)
+[1] 5166
+
+| You nailed it! Good job!
+
+  |==========================                                                       |  32%
+| ... And ncol(plants) to see only the number of columns.
+
+> ncol(plants)
+[1] 10
+
+| All that practice is paying off!
+
+  |=============================                                                    |  36%
+| If you are curious as to how much space the dataset is occupying in memory, you can use
+| object.size(plants).
+
+> object.size(plants)
+644232 bytes
+
+| Keep working like that and you'll get there!
+
+  |================================                                                 |  40%
+| Now that we have a sense of the shape and size of the dataset, let's get a feel for
+| what's inside. names(plants) will return a character vector of column (i.e. variable)
+| names. Give it a shot.
+
+> names(plants)
+ [1] "Scientific_Name"      "Duration"             "Active_Growth_Period"
+ [4] "Foliage_Color"        "pH_Min"               "pH_Max"              
+ [7] "Precip_Min"           "Precip_Max"           "Shade_Tolerance"     
+[10] "Temp_Min_F"          
+
+| You're the best!
+
+  |====================================                                             |  44%
+| We've applied fairly descriptive variable names to this dataset, but that won't always
+| be the case. A logical next step is to peek at the actual data. However, our dataset
+| contains over 5000 observations (rows), so it's impractical to view the whole thing all
+| at once.
+
+...
+
+  |=======================================                                          |  48%
+| The head() function allows you to preview the top of the dataset. Give it a try with
+| only one argument.
