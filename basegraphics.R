@@ -1,5 +1,5 @@
 ## Credit: grateful to Rswirl and John Hopkins University's course in R programming.
-## Purpose: Domentation of exercises and used as good review and reference. 
+## Purpose: Documentation of exercises and used as good review and reference. 
 
 ##Section: 15
 
